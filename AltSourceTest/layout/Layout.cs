@@ -40,6 +40,10 @@ namespace AltSourceTest.layout
 
             sb.AppendLine()
                 .AppendLine(BuildCenteredText("Exiting the App!"))
+                .AppendLine(BuildCenteredText("----------------"))
+                .AppendLine(BuildCenteredText("Keep in mind that I built this with about a week and a halfs"))
+                .AppendLine(BuildCenteredText("worth of experience with C#.NET, so please be gentile."))
+                .AppendLine()
                 .AppendLine(BuildCenteredText("Thanks for the consideration! :) -Phil"));
 
             RenderContainedArea(sb.ToString(), '+');
