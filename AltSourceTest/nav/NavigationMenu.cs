@@ -26,7 +26,7 @@ namespace AltSourceTest.nav
             {
                 sb.Append($" {i + 1}) {ShortList[i].Name} |");
             }
-            sb.Append(" Q) Exit");
+            sb.Append(" Quit) Exit");
 
             Layout.RenderContainedArea(sb.ToString(), '-');
         }

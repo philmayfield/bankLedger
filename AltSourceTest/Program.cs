@@ -24,7 +24,7 @@ namespace AltSourceTest
                 {
                     AppHelper.ResetView();
                 }
-            } while (input != null && input.ToLower() != "q");
+            } while (input != null && input.ToLower() != "quit");
 
             AppHelper.Exit();
         }
