@@ -8,7 +8,6 @@ namespace AltSourceTest.data
 {
     public class DataInterface
     {
-
         private static readonly string UserPath = $"{Path.GetTempPath()}altsourcetest_user.bin";
         private static readonly string UsersPath = $"{Path.GetTempPath()}altsourcetest_users.bin";
         private static readonly string TransactionsPath = $"{Path.GetTempPath()}altsourcetest_transactions.bin";

@@ -18,7 +18,7 @@ namespace AltSourceTest.functions
 
             try
             {
-                Activator.CreateInstance(catType, args);
+                Activator.CreateInstance(catType ?? throw new InvalidOperationException(), args);
             }
             catch (Exception e)
             {

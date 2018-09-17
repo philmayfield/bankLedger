@@ -1,5 +1,4 @@
-﻿using System;
-using AltSourceTest.data;
+﻿using AltSourceTest.data;
 using AltSourceTest.helpers;
 using System.Collections.Generic;
 
